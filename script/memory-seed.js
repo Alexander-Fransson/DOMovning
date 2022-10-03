@@ -51,5 +51,6 @@ const board = document.querySelector('#board');
 
 shuffledCards.forEach(element => {
     const card = document.createElement('memory-card');
+    card.setAttribute('front',path+element+fileType);
     board.appendChild(card);
 });
