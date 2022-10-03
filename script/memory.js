@@ -1,1 +1,1 @@
-alert('play memory');
+//skapar tempalte för kort
